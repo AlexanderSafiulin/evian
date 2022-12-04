@@ -5,38 +5,52 @@
   }
 
 .header {   
-    color: #E50043;
     display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #E50043;
+    font-size:18pt;
     position: fixed;
     z-index: 10;
-    padding: 10px;
-       
+
 }
 
 .menu {
     display: flex;
-    
+    width: 300px;
+    padding: 20px 0;
     justify-content: space-between;
-    border: solid 2px blueviolet;
-    
+    align-items: center;
+    padding: 10px;
     }
 
 .heroblock {
     display: flex;
     width: 1440px;
     height: 950px;
-
+    background: url('images/evian_origins_logo.png');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
 
 }
 
 .pinkborderblock {
     display: flex;
+    position: relative;
     
     width: 1040px;
     height: 280px;
     color: black;
     border: 1px solid palevioletred;
     border-radius: 10px;
+
     justify-content: center;
     align-items: center;
     padding: 24px;
