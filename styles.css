@@ -28,7 +28,7 @@
 
 .heroblock {
     display: flex;
-    width: 1440px;
+    
     height: 950px;
     background: url('images/evian_origins_logo.png');
     background-size: cover;
@@ -43,18 +43,20 @@
 
 .pinkborderblock {
     display: flex;
-    position: relative;
-    
     width: 1040px;
-    height: 280px;
+    
     color: black;
     border: 1px solid palevioletred;
     border-radius: 10px;
 
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     padding: 24px;
-
+    margin-top: 100px;
+    margin-left: 225px;
+    margin-bottom: 100px;
+    margin-right: 220px;
+    font-size: 25px;
 }
 
 .pinkborderblock_with_bottle {
@@ -62,16 +64,44 @@
     flex-direction: column;
 }
 
+.intimage {
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.photo-grid-container {
+    display: flex;
+    position: static;
+    justify-content: center;
+    
+  }
+  
+  .photo-grid {
+    width: 900px;
+    display: flex;
+    
+   /* flex-wrap: wrap; /*это переносит элементы на следующую строку */
+    /* flex-direction:column; /*это меняет колонки на строки */
+  }
+  
+  .photo-grid-item {
+    width: 300px;
+    height: 880px;
+    
+  }
+  
+
+
 
 .footer {
-    background-color: #F8BFC7;
-    padding: 50 50 50;
+    background:linear-gradient(rgb(215, 98, 98), pink);
+    padding: 20px;
     color: white;
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 140px;
     left: 0px;
-    top: 3219px;
+    top:2900px;
     
 
 }
