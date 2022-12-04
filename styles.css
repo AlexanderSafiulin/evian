@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header {   
+    color: #E50043;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    padding: 10px;
+       
+}
+
+.menu {
+    display: flex;
+    
+    justify-content: space-between;
+    border: solid 2px blueviolet;
+    
+    }
+
+.heroblock {
+    display: flex;
+    width: 1440px;
+    height: 950px;
+
+
+}
+
+.pinkborderblock {
+    display: flex;
+    
+    width: 1040px;
+    height: 280px;
+    color: black;
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+
+}
+
+.pinkborderblock_with_bottle {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer {
+    background-color: #F8BFC7;
+    padding: 50 50 50;
+    color: white;
+    position: absolute;
+    width: 1440px;
+    height: 140px;
+    left: 0px;
+    top: 3219px;
+    
+
+}
